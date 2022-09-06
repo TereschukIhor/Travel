@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel</title>
+    <link rel="icon" href="img/logo.svg">
+</head>
+<body onscroll="mySticky()">
+    <div class="wrapper">
+        <header class="header" id="sticky">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="#"><img src="img/logo.svg" alt="logo"></a>
+                    <a href="#"><p>Travel</p></a>
+                </div>
+                <nav class="header__menu" id="myTopnav">
+                    <ul class="header__list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Partner</a></li>
+                    </ul>
+                    <div class="header__btn">
+                        <a href="#" class="btn">Login</a>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </nav>
+                <div class="topNav__icon">
+                    <a href="javascript:void(0);" onclick="topNav()">&#9776;</a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="first__block" id="sticky__heigth">
+                <div class="first__left -anim anim-no-hide">
+                    <h1 class="left__title">Explore and Travel</h1>
+                    <p class="left__text">Holiday finder</p>
+                    <div class="first__elem"></div>
+                    <div class="first__select">
+                        <div class="select__top">
+                            <select class="location" name="location">
+                                <option value="1" selected>Location</option>
+                                <option value="2">Option 1</option>
+                                <option value="3">Option 2</option>
+                                <option value="4">Option 3</option>
+                            </select>
+                            <select class="Activity" name="activity">
+                                <option value="1" selected>Activity</option>
+                                <option value="2">Option 1</option>
+                                <option value="3">Option 2</option>
+                                <option value="4">Option 3</option>
+                            </select>
+                        </div>
+                        <div class="select__bottom">
+                            <select class="grade" name="grade">
+                                <option value="1" selected>Grade</option>
+                                <option value="2">Option 1</option>
+                                <option value="3">Option 2</option>
+                                <option value="4">Option 3</option>
+                            </select>
+                            <input type="date" name="date" value="2022-08-16" min="2022-06-01" max="2022-10-31">
+                        </div>
+                        <div class="circle1">
+                            <img src="img/circle.svg" alt="Circle">
+                        </div>
+                        <div class="plus1">
+                            <img src="img/plus.svg" alt="Circle">
+                        </div>
+                    </div>
+                    <div class="first__button">
+                        <a href="#"class="explore btn">Explore</a>
+                    </div>
+                </div>
+                <div class="first__right -anim anim-no-hide">
+                    <img src="img/first_block.svg" alt="traveler">
+                    <div class="circle2">
+                        <img src="img/circle.svg" alt="Circle">
+                    </div>
+                </div>
+            </section>
+            <section class="second__block">
+                <div class="second__left -anim anim-no-hide">
+                    <img src="img/second_block.svg" alt="skydiver">
+                </div>
+                <div class="second__right -anim anim-no-hide">
+                    <h2 class="second__title">A new way to explore the world</h2>
+                    <p class="second__subtitle">
+                        For decades travellers have reached for Lonely Planet books when looking to plan 
+                        and execute their perfect trip, but now, they can also let Lonely 
+                        Planet Experiences lead the way
+                    </p>
+                    <div class="learn__button">
+                        <a href="#" class="learn btn">Learn more</a>
+                    </div>
+                    <div class="circle3">
+                        <img src="img/circle.svg" alt="Circle">
+                    </div>
+                    <div class="plus2">
+                        <img src="img/plus.svg" alt="Circle">
+                    </div>
+                </div>
+            </section>
+            <section class="third__block">
+                <div class="third__top -anim anim-no-hide">
+                    <h2 class="third__title">Featured destinations</h2>
+                    <div class="third__view__block">
+                        <a href="#" class="view">View all</a>
+                        <a href="#"><img src="img/Vector_right.svg" class="view__vector"></a>
+                    </div>
+                    <div class="circle4">
+                        <img src="img/circle.svg" alt="Circle">
+                    </div>
+                </div>
+                <div class="third__bottom -anim anim-no-hide">
+                    <div class="bottom__block block__name__1">
+                        <div class="block__name">
+                            <p class="name__1">Raja Ampat</p>
+                            <p class="name__2">Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="bottom__block block__name__2">
+                        <div class="block__name">
+                            <p class="name__1">Fanjingshan</p> 
+                            <p class="name__2">China</p>
+                        </div>
+                    </div>
+                    <div class="bottom__block block__name__3">
+                        <div class="block__name">
+                            <p class="name__1">Vevey</p>
+                            <p class="name__2">Switzerland</p>
+                        </div>
+                    </div>
+                    <div class="bottom__block block__name__4">
+                        <div class="block__name">
+                            <p class="name__1">Skadar</p> 
+                            <p class="name__2">Montenegro</p>
+                        </div>
+                    </div>
+                    <div class="plus3">
+                        <img src="img/plus.svg" alt="Circle">
+                    </div>
+                </div>
+            </section>
+            <section class="fourth__block">
+                <div class="fourth__left -anim anim-no-hide">
+                    <h2 class="fourth__title">Guides by Thousand Sunny</h2>
+                    <p class="fourth__subtitle">
+                        Packed with tips and advice from our on-the-ground experts, our city 
+                        guides app (iOS and Android) is the ultimate resource before and during a trip.
+                    </p>
+                    <a href="#" class="download btn">Download</a>
+                    <div class="plus4">
+                        <img src="img/plus.svg" alt="Circle">
+                    </div>
+                    <div class="circle5">
+                        <img src="img/circle.svg" alt="Circle">
+                    </div>
+                </div>
+                <div class="fourth__right -anim anim-no-hide">
+                    <img src="img/fourth_block.svg" alt="man and world">
+                </div>
+            </section>
+            <section class="fifth__block">
+                <div class="fifth__top -anim anim-no-hide">
+                    <h2 class="fifth__title__text">Testimonials</h2>
+                </div>
+                <div class="fifth__bottom">
+                    <div class="fifth__left -anim anim-no-hide">
+                        <div class="fifth__stars" id="stars">
+                            <svg class="star1" width="576px" height="576px" viewBox="0 -32 576 576" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/>
+                            </svg>
+                            <svg class="star2" width="576px" height="576px" viewBox="0 -32 576 576" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/>
+                            </svg>
+                            <svg class="star3" width="576px" height="576px" viewBox="0 -32 576 576" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/>
+                            </svg>
+                            <svg class="star4" width="576px" height="576px" viewBox="0 -32 576 576" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/>
+                            </svg>
+                            <svg class="star5" width="576px" height="576px" viewBox="0 -32 576 576" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="fifth__text">
+                                “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac 
+                                scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”
+                            </p>
+                        </div>
+                        <div class="fifth__name">
+                            <p class="fifth__name1">Edward Newgate</p>
+                            <p class="fifth__name2">Founder Circle</p>
+                        </div>
+                        <div class="circle6">
+                            <img src="img/circle.svg" alt="Circle">
+                        </div>
+                    </div>
+                    <div class="fifth__right -anim anim-no-hide">
+                        <div class="fifth__img__block">
+                            <img src="img/fifth_block.svg" alt="photographer">
+                            <div class="fifth__right__block">
+                                <button class="left__arrow"><img src="img/left_arrow.svg" alt="left button"></button>
+                                <button class="right__arrow"><img src="img/right_arrow.svg" alt="right button"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sixth__block">
+                <div class="sixth__top -anim anim-no-hide">
+                    <h2 class="top__title">Trending stories</h2>
+                    <div class="top__view__block">
+                        <a href="#" class="view">View all</a>
+                        <a href="#"><img src="img/Vector_right.svg" class="view__vector"></a>
+                    </div>
+                    <div class="plus5">
+                        <img src="img/plus.svg" alt="Circle">
+                    </div>
+                </div>
+                <div class="sixth__bottom -anim anim-no-hide">
+                    <div class="bottom__block">
+                        <div class="bottom__img__block1"></div>
+                        <p class="bottom__title">
+                            The many benefits of taking a healing holiday
+                        </p>
+                        <p class="bottom__subtitle">
+                            ‘Helaing holidays’ are on the rise tohelp maximise your health and happines...
+                        </p>
+                        <a class="read__more" href="#">Read more</a>
+                    </div>
+                    <div class="bottom__block">
+                        <div class="bottom__img__block2"></div>
+                        <p class="bottom__title">
+                            The best Kyoto restaurant to try Japanese food
+                        </p>
+                        <p class="bottom__subtitle">
+                            From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...
+                        </p>
+                        <a class="read__more" href="#">Read more</a>
+                    </div>
+                    <div class="bottom__block">
+                        <div class="bottom__img__block3"></div>
+                        <p class="bottom__title">
+                            Skip Chichen Itza and head to this remote Yucatan
+                        </p>
+                        <p class="bottom__subtitle">
+                            It’s remote and challenging to get, but braving the jungle and exploring 
+                            these ruins without the...
+                        </p>
+                        <a class="read__more" href="#">Read more</a>
+                    </div>
+                    <div class="bottom__block">
+                        <div class="bottom__img__block4"></div>
+                        <p class="bottom__title">
+                            Surf’s up at these beginner spots around the world
+                        </p>
+                        <p class="bottom__subtitle">
+                            If learning to surf has in on your to-do list for a while, the good 
+                            news is: it’s never too late...
+                        </p>
+                        <a class="read__more" href="#">Read more</a>
+                    </div>
+                    <div class="circle7">
+                        <img src="img/circle.svg" alt="Circle">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <section class="footer__block">
+                <div class="footer__top">
+                    <div class="footer__top__one">
+                        <div class="top__one__logo">
+                            <img src="img/logo.svg">
+                        </div>
+                        <div class="top__one__text1">
+                            Plan and book your perfect trip with expert advice, travel tips destination
+                            information from us
+                        </div>
+                        <div class="top__one__text2">
+                            ©2020 Thousand Sunny. All rights reserved
+                        </div>
+                    </div>
+                    <div class="footer__top__two">
+                        <a href="#" class="top__two__title">Destinations</a>
+                        <a href="#" class="top__two__subtitle">Africa</a>
+                        <a href="#" class="top__two__subtitle">Antarctica</a>
+                        <a href="#" class="top__two__subtitle">Asia</a>
+                        <a href="#" class="top__two__subtitle">Europe</a>
+                        <a href="#" class="top__two__subtitle">America</a>
+                    </div>
+                    <div class="footer__top__two">
+                        <a href="#" class="top__two__title">Shop</a>
+                        <a href="#" class="top__two__subtitle">Destination Guides</a>
+                        <a href="#" class="top__two__subtitle">Pictorial & Gifts</a>
+                        <a href="#" class="top__two__subtitle">Special Offers</a>
+                        <a href="#" class="top__two__subtitle">Delivery Times</a>
+                        <a href="#" class="top__two__subtitle">FAQs</a>
+                    </div>
+                    <div class="footer__top__two">
+                        <a href="#" class="top__two__title">Interests</a>
+                        <a href="#" class="top__two__subtitle">Adventure Travel</a>
+                        <a href="#" class="top__two__subtitle">Art And Culture</a>
+                        <a href="#" class="top__two__subtitle">Wildlife And Nature</a>
+                        <a href="#" class="top__two__subtitle">Family Holidays</a>
+                        <a href="#" class="top__two__subtitle">Food And Drink</a>
+                    </div>
+                </div>
+                <div class="footer__line"></div>
+                <div class="footer__bottom">
+                    <a href="#"><img src="img/link_twitter.svg"></a>
+                    <a href="#"><img src="img/link_fb.svg"></a>
+                    <a href="#"><img src="img/link_insta.svg"></a>
+                    <a href="#"><img src="img/link_in.svg"></a>
+                    <a href="#"><img src="img/link_yt.svg"></a>
+                </div>
+            </section>
+        </footer>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

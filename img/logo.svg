@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82 82" width="82" height="82">
+	<title>Слой 3</title>
+	<defs>
+		<image  width="82" height="82" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw8nOpAAAAAXNSR0IB2cksfwAAAKJQTFRFAAAAIL+AGr+DHMGFG7+EG7+EGr+FGr6EG76EGr+FGr+FGL+AEL+AG7+FGr6EGr+EG8GEGr2DGr+FHL+DGr6FG72DGb+EGL+HGr6EFr+DG72EGb2EGL+DG7+EGb6EGcWEHb+DF76EGb+FGb2FHL+FGb6EGr2EG72FGL+EIL+AGr2FGL+FGb6FG7+EFryDF7+FGL2FGL6GGL+GGr6EGr2FGb2EeUXr0wAAADZ0Uk5TACBQb5+/3//vr38gEGDfn1+An0DfkI8g71BwcEBfvx9QT2+vb9+fYF8Qn3/fj1BvYD9fT68fTPjB0QAAAf1JREFUeJzlmGtfgjAYxZeJU5qiXYTSqCxIgsqyvv9Xi3FREGS346vOe/6/8zzn2dhGiEBnvfO+NRjQVMOBNbJ7F6IvOsXG/SFtaOJMNbFsbDVxpaypBnDW4q/uVc0qu+zm5VKACh3uNJMkXl1LAnn5Mj1lN/JArjkTEV0Fi4VRQUd7sl2syLvtIt6pA7k6UprpETuY2sSjTAMipYvWZEyIlLZk5GpkXZXXmCWmPI+HmhzOvOKaadO8ThybEyld1pDGZXPVSjean73sStoYIvX2NqX2cBk5aJOpGNrkvpuQuHMV3YTMZKn7DNlxAlCXDw6Hi6HrzisH5s3lYPPm8uCtpPSBPKKRT8RGI1dkhEY62EHn8tGBp3s7MfzXtiHRREr/LxKeuHeKITrBqIO3S0qfyQsaaZ9ic4NvwelpGLzIA/zvLEyRr1jkOkVGWGR2sfCRxOwAg618nSEjYOZBcb4E/nfDAgkMaHfre0MRS5PAblaupqBuxpXbWZQgiAGpaolArmtI8m5OPLg8A0oPGs9a+IcI4+eSjyaRkIUJMW4jEhLDiQbMo0Rt5udxouZjY2sye7nK8xkIH5kjxXUkfrhNtVEwGnxJALlkU/JiGYu5XKl9PpQH5lBB+SoOd9p0nBn8bw1gZnXT5tULdXkldmv/+InHWUnih6vtr+iLP6r0oysEKritAAAAAElFTkSuQmCC"/>
+		<image  width="42" height="42" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAAXNSR0IB2cksfwAAAIdQTFRFAAAA/////////////////////////////////////////////////////////vjx/uPG/MCA/KRH+5Yr+48d/KtV/ty4/ceN+505/vHj/c6b/dWq/cB//cCA/blx/c6c/vHi//jx/ceO/KRI/KtW/ty5/J05//////Hj/tWq/JYr//Hi/uPH62wYMwAAAC10Uk5TABBAj6/f7//Pv3+fMCCQ////////////////////////////////P///////kZBzGQAAAX5JREFUeJyVlel2gyAQhVHcUNMsTpYmtW3MYpP2/Z+vyEBEZWgzf9DDdy5zBxgYG0QQ8ihO0jTJRB4yT4RcUn0kRUmBIp2EmDnA4GUKdsGDMTmL3WSaxiPhMqFIyZZucr5YriqAar3c9PZKx+rzrcRM7Lavhn3kEBhyb4EKPpgcjDfj/Q0mUZs66OX17/uUBHjXk7h1gtS0dIVyj98HNwnw0csW6utzR6HV8ZEtlnRLkQANFixgIeqTog/ZkOVq3NAkwEJngP5rH4pFiFimxrUPPeGOaVeVD63QF0NXPhIAmWfQJxLAA7jyoWeFZCz6b7EE42pc+NCLQnK9sUdPsld01bIAfTU0qo+LPFn8D9nrlwKKrv+g/p5CbzhfWheGKIJ9YYys/xrqTsBTUnd0ufuWcbsOwbu+gn3LYDPTsr4bC743R0NazdBqhJf6fJfYqf4x4KC9SZZsr2PymVYsvXE3OW3wnbDr2WgdoMq4GD5GnAJVtLnIuicujng7WvoXi4xQqTgoKp4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+	<use id="Слой 3" href="#img2" x="20" y="20" />
+</svg>
